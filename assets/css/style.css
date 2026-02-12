@@ -75,8 +75,6 @@ body {
   text-decoration-thickness: 3px;
 }
 
-
-
 .hero {
   padding: 2rem;
   min-height: 100vh;
@@ -129,7 +127,6 @@ body {
   box-shadow: 0 3px 24px var(--color-primary-blue);
 }
 
-
 .features {
   min-height: 100vh;
 }
@@ -140,7 +137,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 
 .features-text {
@@ -154,7 +150,6 @@ body {
 
   padding: 40px 60px;
 }
-
 
 .feature-card {
   display: flex;
@@ -184,4 +179,75 @@ body {
 
 .feature-card p {
   margin-bottom: 8px;
+}
+
+.cta-section {
+  padding: 3rem;
+}
+
+.cta-section h1 {
+  margin-bottom: 32px;
+}
+.cta-btn {
+  border: none;
+  background: blue;
+  padding: 16px 32px;
+  color: white;
+  border-radius: 8px;
+}
+
+.cta-btn:hover {
+  transition: 0.4s;
+  transform: scale(1.1);
+  box-shadow: 0 8px 24px var(--color-primary-blue);
+}
+
+footer {
+  background: white;
+  padding: 2rem;
+}
+
+footer h1 {
+  margin-bottom: 24px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--text-color);
+}
+.menu-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem;
+  gap: 16rem;
+}
+
+.menu-footer li {
+  list-style: none;
+  margin-left: 24px;
+}
+
+.menu-footer li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.menu-footer li a:hover {
+  color: var(--color-primary-blue);
+}
+
+.footer-container {
+  border-bottom: 2px solid var(--text-color);
+  margin-bottom: 32px;
+}
+
+.footer-groub h3 {
+  color: var(--text-color);
+}
+
+.fot {
+  text-align: center;
 }
